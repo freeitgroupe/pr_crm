@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {By.className: products-list}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789273101.0.png\r\nPage source: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789273101.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".products\\-list\"}",
+      "children" : [ {
+        "name" : "navigationToAllTools",
+        "uid" : "a652fb2f932d3c91",
+        "parentUid" : "dd31d301e29eca6ef3d18cba2bf9c9ba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616789268299,
+          "stop" : 1616789273913,
+          "duration" : 5614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd31d301e29eca6ef3d18cba2bf9c9ba"
+    }, {
+      "name" : "Element not found {By.xpath: //div[contains(@class, 'menu-main__item') and text() = 'Tools']}\r\nExpected: exist\r\nScreenshot: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789279608.1.png\r\nPage source: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789279608.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'menu-main__item') and text() = 'Tools']\"}",
+      "children" : [ {
+        "name" : "toolsMenu",
+        "uid" : "7a73704fd7fb753f",
+        "parentUid" : "a5901388dec20f74404b1a247e3c8314",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616789275461,
+          "stop" : 1616789280429,
+          "duration" : 4968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5901388dec20f74404b1a247e3c8314"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "The driver executable does not exist: C:\\Users\\Yaroslav\\Desktop\\demo\\drivers\\chromedriver.exe",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "7a7b7d2dec9ab8ad",
+        "parentUid" : "5e6b60b4384467a1606e8215442697f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616793922773,
+          "stop" : 1616793922774,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e6b60b4384467a1606e8215442697f0"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submitt'] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "testLogin",
+        "uid" : "bda994ce8b15c868",
+        "parentUid" : "8a1fe2686d5125f06608b56ca7a35311",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616793994488,
+          "stop" : 1616794011671,
+          "duration" : 17183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a1fe2686d5125f06608b56ca7a35311"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

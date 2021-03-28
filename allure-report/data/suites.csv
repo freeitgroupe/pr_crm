@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Mar 26 17:25:22 EDT 2021","Fri Mar 26 17:25:22 EDT 2021","1","Default Suite","demo","com.example.demo.tests.TestLogin","com.example.demo.tests.TestLogin","setUp","setUp",""
+"broken","Fri Mar 26 17:26:34 EDT 2021","Fri Mar 26 17:26:51 EDT 2021","17183","Default Suite","demo","com.example.demo.tests.TestLogin","com.example.demo.tests.TestLogin","testLogin","testLogin",""
+"failed","Fri Mar 26 16:07:48 EDT 2021","Fri Mar 26 16:07:53 EDT 2021","5614","Default Suite","demo","com.example.demo.MainPageTest","com.example.demo.MainPageTest","navigationToAllTools","navigationToAllTools",""
+"failed","Fri Mar 26 16:07:55 EDT 2021","Fri Mar 26 16:08:00 EDT 2021","4968","Default Suite","demo","com.example.demo.MainPageTest","com.example.demo.MainPageTest","toolsMenu","toolsMenu",""
+"passed","Fri Mar 26 16:07:54 EDT 2021","Fri Mar 26 16:07:55 EDT 2021","661","Default Suite","demo","com.example.demo.MainPageTest","com.example.demo.MainPageTest","search","search",""

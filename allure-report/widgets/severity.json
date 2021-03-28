@@ -1,0 +1,51 @@
+[ {
+  "uid" : "bda994ce8b15c868",
+  "name" : "testLogin",
+  "time" : {
+    "start" : 1616793994488,
+    "stop" : 1616794011671,
+    "duration" : 17183
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a652fb2f932d3c91",
+  "name" : "navigationToAllTools",
+  "time" : {
+    "start" : 1616789268299,
+    "stop" : 1616789273913,
+    "duration" : 5614
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab775e68e97be367",
+  "name" : "search",
+  "time" : {
+    "start" : 1616789274387,
+    "stop" : 1616789275048,
+    "duration" : 661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a7b7d2dec9ab8ad",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1616793922773,
+    "stop" : 1616793922774,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a73704fd7fb753f",
+  "name" : "toolsMenu",
+  "time" : {
+    "start" : 1616789275461,
+    "stop" : 1616789280429,
+    "duration" : 4968
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

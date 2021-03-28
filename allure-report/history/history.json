@@ -1,0 +1,101 @@
+{
+  "a8d3673ae96cb887b1b5c4aa3a09d7a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bda994ce8b15c868",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submitt'] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616793994488,
+        "stop" : 1616794011671,
+        "duration" : 17183
+      }
+    } ]
+  },
+  "6c7c8fd1df460b19d63e3230ca23d590" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a652fb2f932d3c91",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.className: products-list}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789273101.0.png\r\nPage source: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789273101.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".products\\-list\"}",
+      "time" : {
+        "start" : 1616789268299,
+        "stop" : 1616789273913,
+        "duration" : 5614
+      }
+    } ]
+  },
+  "d4fa8657338d24b345c9fc1e4c4d9d1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a7b7d2dec9ab8ad",
+      "status" : "broken",
+      "statusDetails" : "The driver executable does not exist: C:\\Users\\Yaroslav\\Desktop\\demo\\drivers\\chromedriver.exe",
+      "time" : {
+        "start" : 1616793922773,
+        "stop" : 1616793922774,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fbfc6fdd0fe363833ccfb302f8d1b856" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab775e68e97be367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616789274387,
+        "stop" : 1616789275048,
+        "duration" : 661
+      }
+    } ]
+  },
+  "c254101a8983ac881a1ed3d45eeede65" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a73704fd7fb753f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[contains(@class, 'menu-main__item') and text() = 'Tools']}\r\nExpected: exist\r\nScreenshot: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789279608.1.png\r\nPage source: file:/C:/Users/Yaroslav/Desktop/demo/build/reports/tests/1616789279608.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'menu-main__item') and text() = 'Tools']\"}",
+      "time" : {
+        "start" : 1616789275461,
+        "stop" : 1616789280429,
+        "duration" : 4968
+      }
+    } ]
+  }
+}

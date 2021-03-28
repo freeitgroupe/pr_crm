@@ -1,0 +1,82 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.example.demo",
+    "children" : [ {
+      "name" : "MainPageTest",
+      "children" : [ {
+        "name" : "navigationToAllTools",
+        "uid" : "a652fb2f932d3c91",
+        "parentUid" : "a6a03568d74024874d70d87e12646052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616789268299,
+          "stop" : 1616789273913,
+          "duration" : 5614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search",
+        "uid" : "ab775e68e97be367",
+        "parentUid" : "a6a03568d74024874d70d87e12646052",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616789274387,
+          "stop" : 1616789275048,
+          "duration" : 661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "toolsMenu",
+        "uid" : "7a73704fd7fb753f",
+        "parentUid" : "a6a03568d74024874d70d87e12646052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616789275461,
+          "stop" : 1616789280429,
+          "duration" : 4968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6a03568d74024874d70d87e12646052"
+    }, {
+      "name" : "tests.TestLogin",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "7a7b7d2dec9ab8ad",
+        "parentUid" : "c370b961536c9178589d5fff8b14d6f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616793922773,
+          "stop" : 1616793922774,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLogin",
+        "uid" : "bda994ce8b15c868",
+        "parentUid" : "c370b961536c9178589d5fff8b14d6f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616793994488,
+          "stop" : 1616794011671,
+          "duration" : 17183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "tests.TestLogin"
+    } ],
+    "uid" : "com.example.demo"
+  } ]
+}
